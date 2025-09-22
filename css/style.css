@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-quase: #fff9f1;
+    --amarelo: #ECB437ff;
+    --areia: #DBA463ff;
+    --barro: #BD7447ff;
+    --barro-red:#A0542Fff;
+    --palmeira: #335E62ff;
+}
+
+.nav-top {
+    background-color: #fff9f1;
+}
+
+.nav-link{
+    color: var(--barro-red) !important;
+}
