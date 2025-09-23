@@ -1,6 +1,8 @@
 * {
     margin: 0;
+    margin: auto;
     padding: 0;
+    max-width: 1110px;
 }
 
 :root {
@@ -12,10 +14,32 @@
     --palmeira: #335E62ff;
 }
 
+body{
+    background-color: var(--branco-quase) !important;
+}
+
 .nav-top {
-    background-color: #fff9f1;
+    background-color: var(--branco-quase);
 }
 
 .nav-link{
-    color: var(--barro-red) !important;
+    color: var(--branco-quase) !important;
+    font-weight: bold !important;
+    background-color: var(--areia) !important;
+    border-radius: 6px !important;
+    text-align: center;
+}
+
+.nav-item{
+    margin: 0.5rem !important;
+}
+
+.btn-buscar{
+    color: #fff9f1 !important;
+    background-color: var(--barro) !important;
+}
+
+.carousel-item{
+    width: 760px;
+    height: 615px;
 }
