@@ -2,10 +2,10 @@
     margin: 0;
     margin: auto;
     padding: 0;
-    max-width: 1110px;
+    /* max-width: 1110px; */
 }
 
-:root {
+:root{
     --branco-quase: #fff9f1;
     --amarelo: #ECB437ff;
     --areia: #DBA463ff;
@@ -14,18 +14,22 @@
     --palmeira: #335E62ff;
 }
 
-body{
-    background-color: var(--branco-quase) !important;
+/* body{
+    background-color: var(ba) !important;
+} */
+
+.logo{
+    border-radius: 50%;
 }
 
-.nav-top {
-    background-color: var(--branco-quase);
+.nav-top{
+    background-color: var(--areia);
 }
 
 .nav-link{
     color: var(--branco-quase) !important;
     font-weight: bold !important;
-    background-color: var(--areia) !important;
+    background-color: var(--barro) !important;
     border-radius: 6px !important;
     text-align: center;
 }
@@ -39,7 +43,25 @@ body{
     background-color: var(--barro) !important;
 }
 
-.carousel-item{
+/* .carousel-item{
     width: 760px;
     height: 615px;
+} */
+
+.card-img{
+    max-height: 100rem !important;
+    
+}
+
+.carousel-caption{
+    width: auto !important;
+    background-color: var(--barro) !important;
+    border-radius: 10px;
+}
+
+.divisão{
+    background-color: var(--barro);
+    text-align: center;
+    color: var(--branco-quase);
+    padding: 2em;
 }
