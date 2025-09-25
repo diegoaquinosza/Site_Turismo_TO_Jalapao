@@ -45,11 +45,6 @@
     background-color: var(--barro) !important;
 }
 
-/* .carousel-item{
-    width: 760px;
-    height: 615px;
-} */
-
 .card-img{
     max-height: 40em !important;
     object-fit: cover !important;
@@ -67,7 +62,6 @@
     text-align: center;
     color: var(--branco-quase);
     padding: 2em;
-    
 }
 
 .sec-pacotes{
@@ -76,4 +70,37 @@
     margin-top: 2% !important;
     margin-bottom: 2% !important;
     gap: 2em !important;
+    justify-content: space-around !important;
+}
+
+.sec-contato{
+    margin-bottom: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-top: 3% !important;
+    /* gap: 1em !important; */
+}
+
+.card{
+    padding-top: 0.8em !important;
+}
+
+.formulario{
+    justify-items: center !important;
+    /* justify-content: center !important; */
+}
+
+.formtamanho{
+    width: 35em;
+}
+
+.btn{
+    background-color: var(--barro) !important;
+    color: #fff9f1 !important;
+}
+
+footer{
+    background-color: var(--areia);
+    color: #fff9f1;
+    font-size: 1em !important;
 }
