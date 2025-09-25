@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    margin: auto;
+    /* margin: auto; */
     padding: 0;
     /* max-width: 1110px; */
 }
@@ -20,6 +20,8 @@
 
 .logo{
     border-radius: 50%;
+    height: 4em;
+    width: auto;
 }
 
 .nav-top{
@@ -49,19 +51,29 @@
 } */
 
 .card-img{
-    max-height: 100rem !important;
+    max-height: 40em !important;
+    object-fit: cover !important;
     
 }
 
 .carousel-caption{
     width: auto !important;
-    background-color: var(--barro) !important;
+    background-color: #bd7447a9 !important;
     border-radius: 10px;
 }
 
 .divisão{
-    background-color: var(--barro);
+    background-color: var(--areia);
     text-align: center;
     color: var(--branco-quase);
     padding: 2em;
+    
+}
+
+.sec-pacotes{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    gap: 2em !important;
 }
